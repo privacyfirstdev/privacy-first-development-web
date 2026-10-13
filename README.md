@@ -6,7 +6,7 @@ Landing page for the privacy first development projects. Plain static HTML: no b
 
 1. Create a GitHub repository and push this folder to it (the folder root is the site).
 2. In the repository, go to **Settings → Pages**, choose **Deploy from a branch**, pick `main` and `/ (root)`, and save.
-3. Before you publish, replace the placeholder link in `index.html`: search for `YOUR-HANDLE` (the Buy Me a Coffee handle).
+3. The Buy Me a Coffee link in `index.html` already points to `https://buymeacoffee.com/privacyfirstdevelopment`. Change it there if the handle ever changes.
 
 ## Files
 
