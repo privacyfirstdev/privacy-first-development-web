@@ -1,0 +1,27 @@
+<!-- @dsCard group="Colors" height=420 subtitle="Five source colours and the interface tokens derived from them" -->
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../../../assets/fonts/figtree.css"><style>
+:root{--s1:#fff;--s2:#F1F7F5;--ink:#14213D;--mut:#4A5873;--teal:#2D6A5F;--or:#A8480A;--ok:#1F6F3A;--bad:#B3262C}
+@media (prefers-color-scheme:dark){:root{--s1:#0F1B2D;--s2:#172640;--ink:#F3F6FB;--mut:#B5C0D4;--teal:#7AA2FF;--or:#FA8938;--ok:#7CCF93;--bad:#FF7B80}}
+html,body{margin:0}body{background:var(--s1);color:var(--ink);font-family:Figtree,system-ui,sans-serif;padding:16px;box-sizing:border-box}
+.src{display:flex;gap:8px;margin-bottom:16px}.sw{flex:1;border-radius:16px;height:96px;padding:12px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:flex-end;font-size:14px;line-height:20px}
+.sw b{font-size:14px}.sw span{font-size:12px}
+.card{background:var(--s2);border-radius:16px;padding:16px;display:grid;grid-template-columns:1fr 1fr;gap:8px 32px;font-size:16px;line-height:24px}
+h2{font-size:28px;line-height:34px;margin:0 0 8px;color:var(--teal)}
+.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.btn{background:var(--teal);color:var(--s1);border-radius:8px;padding:8px 16px;font-weight:700}
+.warn{background:#FFCA61;color:#14213D;border-radius:8px;padding:8px 16px}
+.dng{background:#B3262C;color:#fff;border-radius:8px;padding:8px 16px;font-weight:700}
+small{font-size:14px;color:var(--mut)}
+</style></head><body>
+<div class="src">
+<div class="sw" style="background:#3874FF;color:#fff"><b>jungle-teal</b><span>#3874FF</span></div>
+<div class="sw" style="background:#318E4A;color:#fff"><b>sea-green</b><span>#318E4A</span></div>
+<div class="sw" style="background:#FFCA61;color:#14213D"><b>golden-pollen</b><span>#FFCA61</span></div>
+<div class="sw" style="background:#FA8938;color:#14213D"><b>vivid-tangerine</b><span>#FA8938</span></div>
+<div class="sw" style="background:#FF454C;color:#14213D"><b>strawberry-red</b><span>#FF454C</span></div>
+</div>
+<div class="card">
+<div><h2>Your data stays yours</h2><p style="margin:0">We don't collect it. <span style="color:var(--or);font-weight:700">Nothing leaves your browser.</span></p><small>Secondary text on a tinted card</small></div>
+<div class="row"><span class="btn">Install</span><span class="warn">Heads up</span><span class="dng">Remove</span><span style="color:var(--ok)">Saved</span><span style="color:var(--bad)">Couldn't connect</span></div>
+</div>
+</body></html>
