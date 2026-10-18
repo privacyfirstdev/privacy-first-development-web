@@ -6,7 +6,7 @@ Landing page for the privacy first development projects. Plain static HTML: no b
 
 1. Create a GitHub repository and push this folder to it (the folder root is the site).
 2. In the repository, go to **Settings → Pages**, choose **Deploy from a branch**, pick `main` and `/ (root)`, and save.
-3. The Buy Me a Coffee link in `index.html` already points to `https://buymeacoffee.com/privacyfirstdevelopment`. Change it there if the handle ever changes.
+3. The Install extension links in `index.html` point to the Chrome Web Store listing. Licenses are bought inside the extension (Stripe), so the site has no checkout link of its own.
 
 ## Files
 
